@@ -49,3 +49,12 @@ atlanta.dar_like()
 atlanta.dar_like()
 print(f'Nome: {atlanta.nome} - Ano: {atlanta.ano} '
 f'- Temporadas: {atlanta.temporadas} - Likes: {atlanta.likes}')
+
+
+vingadores = Filme('vingadores - guerra infinita', 2018, 160)
+vingadores.dar_like()
+print(f'{vingadores.nome} - {vingadores.duracao}: {vingadores.likes}')
+atlanta = Serie('atlanta', 2018, 2)
+atlanta.dar_like()
+atlanta.dar_like()
+print(f'{atlanta.nome} - {atlanta.temporadas}: {atlanta.likes}')
